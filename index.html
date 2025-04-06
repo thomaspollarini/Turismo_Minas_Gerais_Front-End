@@ -7,13 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&family=Secular+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="src/CSS/responsive.css">
 </head>
 <body>
     <main class="places">
         <div class="place selected">
             <picture>
-                <source srcset="./src/img/belo-horizonte.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/belo-horizonte.jpg" alt="Imagem de Belo Horizonte">
+                <source srcset="./src/img/belo-horizonte.png" media="(min-width: 768px)">
+                <img class="image" src="src/img/belo-horizonte-mobile.png" alt="Imagem de Belo Horizonte">
             </picture>
             <div class="content">
                 <h2 class="placeName">Belo Horizonte</h2>
@@ -22,8 +25,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/ouro-pret.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/ouro-pret.jpg" alt="Imagem de Ouro Preto">
+                <source srcset="./src/img/ouro-preto.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/ouro-preto-mobile.png" alt="Imagem de Ouro Preto">
             </picture>
             <div class="content">
                 <h2 class="placeName">Ouro Preto</h2>
@@ -32,8 +35,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/mariana.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/mariana.jpg" alt="Imagem de Mariana">
+                <source srcset="./src/img/mariana.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/mariana-mobile.png" alt="Imagem de Mariana">
             </picture>
             <div class="content">
                 <h2 class="placeName">Mariana</h2>
@@ -42,8 +45,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/Tiradentes.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/Tiradentes.jpg" alt="Imagem de Tiradentes">
+                <source srcset="./src/img/Tiradentes.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/Tiradentes-mobile.png" alt="Imagem de Tiradentes">
             </picture>
             <div class="content">
                 <h2 class="placeName">Tiradentes</h2>
@@ -52,8 +55,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/Diamantina.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/Diamantina.jpg" alt="Imagem de Diamantina">
+                <source srcset="./src/img/Diamantina.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/Diamantina-mobile.png" alt="Imagem de Diamantina">
             </picture>
             <div class="content">
                 <h2 class="placeName">Diamantina</h2>
@@ -62,8 +65,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/Inhotim.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/Inhotim.jpg" alt="Imagem de Inhotim">
+                <source srcset="./src/img/Inhotim.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/Inhotim-mobile.png" alt="Imagem de Inhotim">
             </picture>
             <div class="content">
                 <h2 class="placeName">Inhotim</h2>
@@ -72,8 +75,8 @@
         </div>
         <div class="place">
             <picture>
-                <source srcset="./src/img/Monte-Verde.webp" media="(min-width: 768px)">
-                <img class="image" src="./src/img/Monte-Verde.jpg" alt="Imagem de Monte Verde">
+                <source srcset="./src/img/Monte-Verde.png" media="(min-width: 768px)">
+                <img class="image" src="./src/img/Monte-Verde-mobile.png" alt="Imagem de Monte Verde">
             </picture>
             <div class="content">
                 <h2 class="placeName">Monte Verde</h2>
@@ -83,37 +86,37 @@
     </main>
     <ul class="buttons">
         <li>
-            <button class="buttonBH selected">
+            <button class="button BH selected">
                 <img src="./src/img/icone-belo-horizonte.png" alt="Ícone de Belo Horizonte" class="icon">
             </button>
         </li>
         <li>
-                <button class="buttonOuroPreto">
+                <button class="button OuroPreto">
                     <img src="./src/img/icone-ouro-preto.png" alt="Ícone de Ouro Preto" class="icon">
                 </button>
         </li>
         <li>
-                <button class="buttonMariana">
+                <button class="button Mariana">
                     <img src="./src/img/icone-mariana.png" alt="Ícone de Mariana" class="icon">
                 </button>
         </li>
         <li>
-                <button class="buttonTiradentes">
+                <button class="button Tiradentes">
                     <img src="./src/img/icone-tiradentes.png" alt="Ícone de Tiradentes" class="icon">
                 </button>
         </li>
         <li>
-                <button class="buttonDiamantina">
+                <button class="button Diamantina">
                     <img src="./src/img/icone-diamantina.png" alt="Ícone de Diamantina" class="icon">
                 </button>
         </li>
         <li>
-                <button class="buttonInhotim">
+                <button class="button Inhotim">
                     <img src="./src/img/icone-inhotim.png" alt="Ícone de Inhotim" class="icon">
                 </button>
         </li>
         <li>
-                <button class="buttonMonteVerde">
+                <button class="button MonteVerde">
                     <img src="./src/img/icone-monte-verde.png" alt="Ícone de Monte Verde" class="icon">
                 </button>
         </li>
